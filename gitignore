@@ -1,0 +1,78 @@
+# SHADOW_NET .gitignore
+
+# Sensitive information (NEVER commit these)
+*.env
+.env.local
+secrets/
+credentials/
+api_keys/
+passwords.txt
+
+# Customer/Community data (privacy protection)
+customer_data/
+deployment_addresses/
+community_contacts/
+camera_recordings/
+*.mp4
+*.avi
+*.mkv
+
+# Personal business information
+contracts/
+pricing_negotiations/
+federal_contacts/
+grant_applications_submitted/
+
+# Development
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Documentation - KEEP THESE (public repo)
+# docs/ should be committed
+# README.md should be committed
+# LICENSE should be committed
+
+# What TO commit (examples):
+# ✅ Technical architecture docs
+# ✅ Installation guides
+# ✅ Grant templates (generic)
+# ✅ HOA pitch templates
+# ✅ Code samples
+# ✅ Configuration examples
+# ✅ Hardware specifications
+# ✅ Network diagrams
+
+# What NOT to commit:
+# ❌ Actual customer data
+# ❌ Specific addresses
+# ❌ Camera footage
+# ❌ Personal financial info
+# ❌ Proprietary business deals
+# ❌ Federal contract negotiations (until public)
